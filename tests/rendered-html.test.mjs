@@ -34,8 +34,11 @@ test("server-renders the portfolio", async () => {
   assert.match(html, /ISO 14971/);
   assert.match(html, /Details withheld pending publication/);
   assert.match(html, /Apr 2026 — Present/);
-  assert.match(html, /CVE-centered evaluation pipelines/);
-  assert.match(html, /human validation/);
+  assert.match(html, /AVA FROHNA/);
+  assert.match(html, /learn unfamiliar domains quickly/);
+  assert.match(html, /Building reproducible research pipelines/);
+  assert.match(html, /human review/);
+  assert.match(html, /Open to internship and part-time opportunities/);
 });
 
 test("keeps unpublished research details out of the public page", async () => {
@@ -44,6 +47,6 @@ test("keeps unpublished research details out of the public page", async () => {
 
   assert.doesNotMatch(
     html,
-    /192,?494|1,000-CVE|214-CVE|NVD\/CVE|OSV\/GHSA|evidence-gap|working paper|PoCs/i,
+    /192,?494|1,000-CVE|214-CVE|NVD\/CVE|OSV\/GHSA|evidence-gap|working paper|PoCs|CVE-centered evaluation pipelines|AI security evaluation/i,
   );
 });

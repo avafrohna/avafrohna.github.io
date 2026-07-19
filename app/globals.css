@@ -808,6 +808,10 @@ blockquote {
     font-size: 0.9rem;
   }
 
+  .wordmark span {
+    display: none;
+  }
+
   .header-resume {
     font-size: 0.61rem;
   }

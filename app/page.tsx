@@ -35,7 +35,7 @@ export default function Home() {
 
       <header className="site-header">
         <a className="wordmark" href="#top" aria-label="Ava Frohna, home">
-          AF<span> / 26</span>
+          AVA FROHNA<span> / PORTFOLIO 26</span>
         </a>
         <nav aria-label="Primary navigation">
           <a href="#work">Work</a>
@@ -57,8 +57,9 @@ export default function Home() {
           <p className="hero-intro">
             I&apos;m Ava Frohna, Technical Lead &amp; Co-Founder at NORA, and I&apos;m
             studying a Master of Computer Science majoring in Cybersecurity at
-            the University of Sydney. I connect rigorous engineering with the
-            business judgment to move complex ideas into the real world.
+            the University of Sydney. I learn unfamiliar domains quickly, then
+            turn that learning into secure products, rigorous research, and
+            business decisions.
           </p>
           <div className="hero-actions">
             <a className="button button-primary" href="#work">
@@ -171,34 +172,33 @@ export default function Home() {
             </div>
             <h3>AI security research</h3>
             <p className="case-deck">
-              Building reproducible, CVE-centered evaluation pipelines for AI
-              security research, with human validation built into the process.
+              Building reproducible research pipelines for faculty-supervised
+              work in AI security.
             </p>
             <p>
-              This University of Sydney project examines how public
-              vulnerability evidence can support more reliable evaluation of AI
-              security systems. The manuscript is being prepared for
-              publication, so dataset scale, source inventory, sampling design,
-              internal rubrics, and findings remain private.
+              Working with public vulnerability data, structured evidence, and
+              human review while maintaining careful provenance and
+              research-quality controls. Detailed objectives, methods, scale,
+              and findings remain private pending publication.
             </p>
             <ul>
               <li>
-                Build reproducible pipelines to collect, normalize, and assess
-                structured CVE evidence.
+                Develop reproducible pipelines for collecting and organizing
+                security research data.
               </li>
               <li>
-                Combine automated analysis with human validation to check
-                consistency and evidence quality.
+                Use automated and human checks to support consistent,
+                traceable analysis.
               </li>
               <li>
-                Document provenance, uncertainty, and safety boundaries so the
-                work can be audited and responsibly published.
+                Document uncertainty and safety boundaries for responsible
+                publication.
               </li>
             </ul>
             <div className="tag-row" aria-label="Research skills">
-              <span>Data pipelines</span>
-              <span>CVE analysis</span>
-              <span>Human validation</span>
+              <span>Research pipelines</span>
+              <span>Vulnerability analysis</span>
+              <span>Human review</span>
             </div>
             <p className="case-status">
               Manuscript in preparation · Details withheld pending publication
@@ -310,9 +310,9 @@ export default function Home() {
               <h3>Engineering Research Intern</h3>
               <p>University of Sydney · Security Research</p>
               <p>
-                Building reproducible CVE-focused research pipelines and
-                human-validation workflows for AI security evaluation; detailed
-                methods and findings remain private pending publication.
+                Building reproducible pipelines and human-review workflows for
+                faculty-supervised AI security research; detailed objectives,
+                methods, scale, and findings remain private pending publication.
               </p>
             </div>
           </article>
@@ -376,9 +376,8 @@ export default function Home() {
             <h3>Security &amp; research</h3>
             <p>
               Vulnerability analysis, threat modeling, security controls,
-              cryptography, risk assessment, CVE analysis, research pipelines,
-              human validation, evaluation design, ML, neural networks,
-              embeddings.
+              cryptography, risk assessment, vulnerability analysis, research
+              pipelines, human review, ML, neural networks, embeddings.
             </p>
           </article>
           <article>
@@ -432,8 +431,8 @@ export default function Home() {
         </div>
         <div className="contact-copy">
           <p>
-            Open to internship opportunities across cybersecurity, software
-            engineering, AI research, health tech, and technology risk.
+            Open to internship and part-time opportunities across cybersecurity,
+            software engineering, AI research, health tech, and technology risk.
           </p>
           <a className="contact-email" href="mailto:frohna.ava@gmail.com">
             frohna.ava@gmail.com <span aria-hidden="true">↗</span>

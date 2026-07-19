@@ -414,27 +414,39 @@ export default function Home() {
         </div>
         <div className="recognition-list">
           <article>
-            <p>2026</p>
-            <h3>Harvard Venture Building Program</h3>
-            <span>Certificate of Achievement · Global Top 20 Demo Day Finalist</span>
+            <time className="recognition-year" dateTime="2026">
+              2026
+            </time>
+            <h3>Global Top 20 Demo Day Finalist</h3>
+            <p className="recognition-issuer">
+              Harvard Health Systems Innovation Lab · Venture Building Program
+            </p>
           </article>
           <article>
-            <p>2026</p>
-            <h3>Harvard Health Systems Innovation Lab</h3>
-            <span>First Place · Sydney Hub</span>
+            <time className="recognition-year" dateTime="2026">
+              2026
+            </time>
+            <h3>First Place · Sydney Hub</h3>
+            <p className="recognition-issuer">
+              Harvard Health Systems Innovation Lab
+            </p>
           </article>
           <article>
-            <p>2026</p>
-            <h3>University of Sydney</h3>
-            <span>Best Project Award · Project Management in IT</span>
+            <time className="recognition-year" dateTime="2026">
+              2026
+            </time>
+            <h3>Best Project Award · Project Management in IT</h3>
+            <p className="recognition-issuer">University of Sydney</p>
           </article>
           <article>
-            <p>2026</p>
-            <h3>University of Sydney</h3>
-            <span>
+            <time className="recognition-year" dateTime="2026">
+              2026
+            </time>
+            <h3>
               Engineering Vacation Research Internship Program Scholarship ·
               SC4282
-            </span>
+            </h3>
+            <p className="recognition-issuer">University of Sydney</p>
           </article>
         </div>
       </section>

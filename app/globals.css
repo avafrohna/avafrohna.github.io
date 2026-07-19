@@ -662,19 +662,21 @@ blockquote {
   border-bottom: 1px solid var(--line);
   display: grid;
   gap: 1.25rem;
-  grid-template-columns: 60px minmax(180px, 1.3fr) minmax(180px, 1fr);
+  grid-template-columns: 60px minmax(260px, 1.7fr) minmax(180px, 0.9fr);
   padding: 2.2rem clamp(1.5rem, 3vw, 3rem);
 }
 
-.recognition-list p {
+.recognition-year {
   color: var(--lime);
   font-family: var(--mono);
   font-size: 0.67rem;
 }
 
-.recognition-list span {
+.recognition-issuer {
   color: var(--muted);
   font-size: 0.86rem;
+  margin: 0;
+  text-align: right;
 }
 
 .contact-section {
@@ -894,6 +896,10 @@ blockquote {
     grid-template-columns: 1fr;
     padding-left: 1.25rem;
     padding-right: 1.25rem;
+  }
+
+  .recognition-issuer {
+    text-align: left;
   }
 
   .recognition-list {

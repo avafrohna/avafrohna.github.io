@@ -40,6 +40,8 @@ test("server-renders the portfolio", async () => {
   assert.match(html, /human review/);
   assert.match(html, /Engineering Vacation Research Internship Program Scholarship/);
   assert.match(html, /SC4282/);
+  assert.match(html, /<h3>Global Top 20 Demo Day Finalist<\/h3>/);
+  assert.match(html, /class="recognition-issuer">University of Sydney<\/p>/);
   assert.match(html, /Open to internship and part-time opportunities/);
   assert.match(html, /href="#recognition"/);
   assert.match(html, /id="recognition"/);

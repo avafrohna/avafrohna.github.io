@@ -33,6 +33,9 @@ test("server-renders the portfolio", async () => {
   assert.match(html, /Technical Lead &amp; Co-Founder, NORA/);
   assert.match(html, /ISO 14971/);
   assert.match(html, /Details withheld pending publication/);
+  assert.match(html, /Apr 2026 — Present/);
+  assert.match(html, /CVE-centered evaluation pipelines/);
+  assert.match(html, /human validation/);
 });
 
 test("keeps unpublished research details out of the public page", async () => {

@@ -171,31 +171,34 @@ export default function Home() {
             </div>
             <h3>AI security research</h3>
             <p className="case-deck">
-              Faculty-supervised research at the intersection of cybersecurity
-              and AI evaluation.
+              Building reproducible, CVE-centered evaluation pipelines for AI
+              security research, with human validation built into the process.
             </p>
             <p>
-              This University of Sydney project is being prepared for
-              publication. Its scope, methods, data, working title, and findings
-              are intentionally withheld until the manuscript is public.
+              This University of Sydney project examines how public
+              vulnerability evidence can support more reliable evaluation of AI
+              security systems. The manuscript is being prepared for
+              publication, so dataset scale, source inventory, sampling design,
+              internal rubrics, and findings remain private.
             </p>
             <ul>
               <li>
-                Conducting careful, faculty-supervised work in an emerging
-                security domain.
+                Build reproducible pipelines to collect, normalize, and assess
+                structured CVE evidence.
               </li>
               <li>
-                Applying rigorous research judgment and responsible handling of
-                security information.
+                Combine automated analysis with human validation to check
+                consistency and evidence quality.
               </li>
               <li>
-                A fuller project summary will be added after publication.
+                Document provenance, uncertainty, and safety boundaries so the
+                work can be audited and responsibly published.
               </li>
             </ul>
             <div className="tag-row" aria-label="Research skills">
-              <span>AI security</span>
-              <span>Research design</span>
-              <span>Responsible publication</span>
+              <span>Data pipelines</span>
+              <span>CVE analysis</span>
+              <span>Human validation</span>
             </div>
             <p className="case-status">
               Manuscript in preparation · Details withheld pending publication
@@ -290,13 +293,26 @@ export default function Home() {
         </div>
         <div className="timeline">
           <article>
+            <p className="timeline-date">Apr 2026 — Present</p>
+            <div>
+              <h3>Technical Lead &amp; Co-Founder</h3>
+              <p>NORA · AI Healthcare Venture</p>
+              <p>
+                Own the technical product and help run a three-person venture,
+                translating clinical, commercial, regulatory, cybersecurity,
+                and patient-safety needs into engineering and company decisions.
+              </p>
+            </div>
+          </article>
+          <article>
             <p className="timeline-date">Jun 2026 — Present</p>
             <div>
               <h3>Engineering Research Intern</h3>
               <p>University of Sydney · Security Research</p>
               <p>
-                Conducting faculty-supervised AI security research. Project
-                details are withheld pending publication.
+                Building reproducible CVE-focused research pipelines and
+                human-validation workflows for AI security evaluation; detailed
+                methods and findings remain private pending publication.
               </p>
             </div>
           </article>
@@ -360,8 +376,9 @@ export default function Home() {
             <h3>Security &amp; research</h3>
             <p>
               Vulnerability analysis, threat modeling, security controls,
-              cryptography, risk assessment, evaluation design, ML, neural
-              networks, embeddings.
+              cryptography, risk assessment, CVE analysis, research pipelines,
+              human validation, evaluation design, ML, neural networks,
+              embeddings.
             </p>
           </article>
           <article>

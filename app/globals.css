@@ -553,6 +553,7 @@ blockquote {
   background: var(--navy);
   border: 1px solid var(--line);
   border-top: 0;
+  grid-template-columns: minmax(300px, 0.9fr) minmax(0, 2.1fr);
 }
 
 .section-heading,

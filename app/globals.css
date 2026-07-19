@@ -573,6 +573,8 @@ blockquote {
 .timeline,
 .recognition-list {
   border-left: 1px solid var(--line);
+  display: grid;
+  grid-template-rows: repeat(3, minmax(0, 1fr));
 }
 
 .timeline article {
@@ -652,7 +654,7 @@ blockquote {
 }
 
 .recognition-list article {
-  align-items: start;
+  align-items: center;
   border-bottom: 1px solid var(--line);
   display: grid;
   gap: 1.25rem;
@@ -888,6 +890,10 @@ blockquote {
     grid-template-columns: 1fr;
     padding-left: 1.25rem;
     padding-right: 1.25rem;
+  }
+
+  .recognition-list {
+    grid-template-rows: repeat(3, auto);
   }
 
   .contact-section {

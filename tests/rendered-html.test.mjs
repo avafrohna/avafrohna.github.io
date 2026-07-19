@@ -36,8 +36,10 @@ test("server-renders the portfolio", async () => {
   assert.match(html, /Apr 2026 — Present/);
   assert.match(html, /AVA FROHNA/);
   assert.match(html, /learn unfamiliar domains quickly/);
-  assert.match(html, /Building reproducible research pipelines/);
+  assert.match(html, /Scholarship-supported, faculty-supervised work/);
   assert.match(html, /human review/);
+  assert.match(html, /Engineering Vacation Research Internship Program Scholarship/);
+  assert.match(html, /SC4282/);
   assert.match(html, /Open to internship and part-time opportunities/);
   assert.match(html, /href="#recognition"/);
   assert.match(html, /id="recognition"/);

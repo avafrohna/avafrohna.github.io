@@ -169,12 +169,11 @@ export default function Home() {
           <article className="case-card">
             <div className="case-meta">
               <span>Case 02</span>
-              <span>AI security research · In progress</span>
+              <span>AI security research · Scholarship program</span>
             </div>
             <h3>AI security research</h3>
             <p className="case-deck">
-              Building reproducible research pipelines for faculty-supervised
-              work in AI security.
+              Scholarship-supported, faculty-supervised work in AI security.
             </p>
             <p>
               Working with public vulnerability data, structured evidence, and
@@ -197,12 +196,14 @@ export default function Home() {
               </li>
             </ul>
             <div className="tag-row" aria-label="Research skills">
+              <span>Research scholarship</span>
               <span>Research pipelines</span>
               <span>Vulnerability analysis</span>
               <span>Human review</span>
             </div>
             <p className="case-status">
-              Manuscript in preparation · Details withheld pending publication
+              Engineering Vacation Research Internship Program Scholarship
+              (SC4282) · Details withheld pending publication
             </p>
           </article>
 
@@ -308,12 +309,13 @@ export default function Home() {
           <article>
             <p className="timeline-date">Jun 2026 — Present</p>
             <div>
-              <h3>Engineering Research Intern</h3>
-              <p>University of Sydney · Security Research</p>
+              <h3>Engineering Vacation Research Intern</h3>
+              <p>University of Sydney · Scholarship Recipient</p>
               <p>
-                Building reproducible pipelines and human-review workflows for
-                faculty-supervised AI security research; detailed objectives,
-                methods, scale, and findings remain private pending publication.
+                Awarded the Engineering Vacation Research Internship Program
+                Scholarship (SC4282); building reproducible pipelines and
+                human-review workflows while detailed research information
+                remains private pending publication.
               </p>
             </div>
           </article>
@@ -425,6 +427,14 @@ export default function Home() {
             <p>2026</p>
             <h3>University of Sydney</h3>
             <span>Best Project Award · Project Management in IT</span>
+          </article>
+          <article>
+            <p>2026</p>
+            <h3>University of Sydney</h3>
+            <span>
+              Engineering Vacation Research Internship Program Scholarship ·
+              SC4282
+            </span>
           </article>
         </div>
       </section>

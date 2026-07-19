@@ -20,9 +20,9 @@ const metrics = [
     detail: "Risk-category match with official EPSS labels.",
   },
   {
-    label: "Research",
-    value: "192,494 CVEs",
-    detail: "The defined public-source universe under study.",
+    label: "Team",
+    value: "3 people",
+    detail: "A small founding team building across product, clinical, and business needs.",
   },
 ];
 
@@ -55,9 +55,9 @@ export default function Home() {
             Building <em>secure</em> systems for consequential work.
           </h1>
           <p className="hero-intro">
-            I&apos;m Ava Frohna, Technical Lead &amp; Co-Founder at NORA and a
-            Master of Computer Science (Cybersecurity) student at the
-            University of Sydney. I connect rigorous engineering with the
+            I&apos;m Ava Frohna, Technical Lead &amp; Co-Founder at NORA, and I&apos;m
+            studying a Master of Computer Science majoring in Cybersecurity at
+            the University of Sydney. I connect rigorous engineering with the
             business judgment to move complex ideas into the real world.
           </p>
           <div className="hero-actions">
@@ -83,7 +83,7 @@ export default function Home() {
             </div>
             <div>
               <dt>Academic</dt>
-              <dd>MCS (Cybersecurity), University of Sydney</dd>
+              <dd>Master of Computer Science majoring in Cybersecurity</dd>
             </div>
             <div>
               <dt>Based in</dt>
@@ -169,36 +169,37 @@ export default function Home() {
               <span>Case 02</span>
               <span>AI security research · In progress</span>
             </div>
-            <h3>Evidence gaps in AI security benchmarks</h3>
+            <h3>AI security research</h3>
             <p className="case-deck">
-              Measuring where public vulnerability evidence, datasets, and
-              reliable benchmark tasks stop lining up.
+              Faculty-supervised research at the intersection of cybersecurity
+              and AI evaluation.
             </p>
             <p>
-              My University of Sydney research maps a defined 192,494-CVE
-              public-source universe across NVD/CVE, KEV, EPSS, OSV/GHSA, PoC
-              sources, and public benchmark metadata.
+              This University of Sydney project is being prepared for
+              publication. Its scope, methods, data, working title, and findings
+              are intentionally withheld until the manuscript is public.
             </p>
             <ul>
               <li>
-                Designed a weighted 1,000-CVE metadata frame and nested 214-CVE
-                static-label study.
+                Conducting careful, faculty-supervised work in an emerging
+                security domain.
               </li>
               <li>
-                Built conservative evidence-quality and benchmarkability
-                rubrics with blinded AI coding and human calibration.
+                Applying rigorous research judgment and responsible handling of
+                security information.
               </li>
               <li>
-                Preserved a strict safety boundary: no PoCs, repositories,
-                benchmark tasks, or vulnerable systems were executed.
+                A fuller project summary will be added after publication.
               </li>
             </ul>
             <div className="tag-row" aria-label="Research skills">
+              <span>AI security</span>
               <span>Research design</span>
-              <span>Benchmark evaluation</span>
-              <span>Responsible AI security</span>
+              <span>Responsible publication</span>
             </div>
-            <p className="case-status">Working paper · July 2026 draft</p>
+            <p className="case-status">
+              Manuscript in preparation · Details withheld pending publication
+            </p>
           </article>
 
           <article className="case-card">
@@ -294,8 +295,8 @@ export default function Home() {
               <h3>Engineering Research Intern</h3>
               <p>University of Sydney · Security Research</p>
               <p>
-                Leading an evidence-gap study for reliable, safe AI security
-                benchmark construction.
+                Conducting faculty-supervised AI security research. Project
+                details are withheld pending publication.
               </p>
             </div>
           </article>
@@ -359,7 +360,7 @@ export default function Home() {
             <h3>Security &amp; research</h3>
             <p>
               Vulnerability analysis, threat modeling, security controls,
-              cryptography, risk assessment, benchmark evaluation, ML, neural
+              cryptography, risk assessment, evaluation design, ML, neural
               networks, embeddings.
             </p>
           </article>

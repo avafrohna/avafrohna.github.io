@@ -41,6 +41,7 @@ export default function Home() {
           <a href="#work">Work</a>
           <a href="#experience">Experience</a>
           <a href="#capabilities">Capabilities</a>
+          <a href="#recognition">Recognition</a>
           <a href="#contact">Contact</a>
         </nav>
         <a className="header-resume" href="/Ava_Frohna_CV_2026.pdf" download>
@@ -400,7 +401,11 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="recognition-section page-grid" aria-labelledby="recognition-title">
+      <section
+        className="recognition-section page-grid"
+        id="recognition"
+        aria-labelledby="recognition-title"
+      >
         <div>
           <p className="eyebrow">Recognition / Selected</p>
           <h2 id="recognition-title">Signals earned through the work.</h2>

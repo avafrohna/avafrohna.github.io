@@ -39,6 +39,8 @@ test("server-renders the portfolio", async () => {
   assert.match(html, /Building reproducible research pipelines/);
   assert.match(html, /human review/);
   assert.match(html, /Open to internship and part-time opportunities/);
+  assert.match(html, /href="#recognition"/);
+  assert.match(html, /id="recognition"/);
 });
 
 test("keeps unpublished research details out of the public page", async () => {

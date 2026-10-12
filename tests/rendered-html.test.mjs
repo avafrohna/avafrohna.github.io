@@ -47,6 +47,24 @@ test("server-renders the portfolio", async () => {
   assert.match(html, /id="recognition"/);
 });
 
+test("shows the standards without mapping NORA's production system", async () => {
+  const response = await render();
+  const html = await response.text();
+
+  // The standards are the point: keep them visible.
+  assert.match(html, /ISO 14971/);
+  assert.match(html, /ISO\/IEC 27001/);
+  assert.match(html, /ISO 13485/);
+  assert.match(html, /IEC 62304/);
+
+  // Named technologies belong in the capabilities list, not attached to
+  // NORA's live system, and regulatory status is not announced here.
+  assert.doesNotMatch(
+    html,
+    /Fastify and PostgreSQL backend|Microsoft Azure deployment|TGA submission/i,
+  );
+});
+
 test("keeps unpublished research details out of the public page", async () => {
   const response = await render();
   const html = await response.text();

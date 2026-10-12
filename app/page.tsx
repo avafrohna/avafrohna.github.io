@@ -134,9 +134,9 @@ export default function Home() {
             </p>
             <p>
               I own the technical surface of an AI-enabled clinical
-              communication platform: Fastify and PostgreSQL backend, React
-              nurse dashboard, React Native patient app, provider-agnostic AI
-              adapters, and Microsoft Azure deployment.
+              communication platform: the backend API and database, a nurse
+              dashboard, a patient mobile app, provider-agnostic AI adapters,
+              and the cloud deployment.
             </p>
             <ul>
               <li>
@@ -144,8 +144,11 @@ export default function Home() {
                 patient-safety requirements into product decisions.
               </li>
               <li>
-                Built groundwork for ISO 14971, ISO 27001, IEC 62304, and a
-                future TGA submission.
+                Built the company&apos;s risk management file (ISO 14971),
+                information security management system (ISO/IEC 27001), and
+                quality management system (ISO 13485), with a software
+                lifecycle aligned to IEC 62304, as groundwork for Australian
+                medical-device regulation.
               </li>
               <li>
                 Helped earn first place at the Sydney hub and a global top-20
@@ -379,16 +382,18 @@ export default function Home() {
             <h3>Security &amp; research</h3>
             <p>
               Vulnerability analysis, threat modeling, security controls,
-              cryptography, risk assessment, vulnerability analysis, research
-              pipelines, human review, ML, neural networks, embeddings.
+              cryptography, risk assessment, research pipelines, human review,
+              ML, neural networks, embeddings.
             </p>
           </article>
           <article>
             <p className="capability-number">03</p>
             <h3>Regulated systems</h3>
             <p>
-              ISO 14971 risk management, ISO 27001 ISMS, IEC 62304 software
-              lifecycle, TGA submission groundwork, patient-safety trade-offs.
+              ISO 14971 risk management, ISO/IEC 27001 information security
+              management, ISO 13485 quality management, IEC 62304 software
+              lifecycle, Australian medical-device regulation (TGA),
+              patient-safety trade-offs.
             </p>
           </article>
           <article>

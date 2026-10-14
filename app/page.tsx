@@ -11,7 +11,7 @@ const metrics = [
   },
   {
     label: "Thesis",
-    value: "9,645 CVEs",
+    value: "9,645 records",
     detail: "An open-source vulnerability intelligence dataset.",
   },
   {
@@ -35,7 +35,7 @@ export default function Home() {
 
       <header className="site-header">
         <a className="wordmark" href="#top" aria-label="Ava Frohna, home">
-          AVA FROHNA<span> / PORTFOLIO 26</span>
+          AVA FROHNA<span>SOFTWARE · SECURITY · AI</span>
         </a>
         <nav aria-label="Primary navigation">
           <a href="#work">Work</a>
@@ -53,7 +53,7 @@ export default function Home() {
         <div className="hero-copy">
           <p className="eyebrow">Technical lead · security researcher · builder</p>
           <h1 id="hero-title">
-            Building <em>secure</em> systems for consequential work.
+            Building software<br />people can <em>trust.</em>
           </h1>
           <p className="hero-intro">
             I&apos;m Ava Frohna, Technical Lead &amp; Co-Founder at NORA, and I&apos;m
@@ -73,7 +73,8 @@ export default function Home() {
         </div>
 
         <aside className="hero-aside" aria-label="Current focus">
-          <p className="folio">Folio 01 / Profile</p>
+          <p className="folio">A little about me</p>
+          <span className="profile-monogram" aria-hidden="true">AF.</span>
           <blockquote>
             “The interesting work lives where technical choices become human,
             commercial, and safety decisions.”
@@ -113,8 +114,8 @@ export default function Home() {
 
       <section className="work-section" id="main-content" aria-labelledby="work-title">
         <div className="section-lead" id="work">
-          <p className="eyebrow light">Selected work / 04 case files</p>
-          <h2 id="work-title">Evidence, not adjectives.</h2>
+          <p className="eyebrow light">Selected work / Four projects</p>
+          <h2 id="work-title">Ideas into working systems.</h2>
           <p>
             A focused set of projects showing how I learn quickly, make
             decisions across disciplines, and turn ambiguity into useful work.
@@ -293,8 +294,8 @@ export default function Home() {
 
       <section className="experience-section page-grid" id="experience" aria-labelledby="experience-title">
         <div className="section-heading">
-          <p className="eyebrow">Experience / Beyond the case files</p>
-          <h2 id="experience-title">Built across product, research, and people.</h2>
+          <p className="eyebrow">Experience / My path so far</p>
+          <h2 id="experience-title">Building, researching, connecting.</h2>
         </div>
         <div className="timeline">
           <article>
@@ -360,8 +361,8 @@ export default function Home() {
 
       <section className="capabilities-section" id="capabilities" aria-labelledby="capabilities-title">
         <div className="capabilities-intro">
-          <p className="eyebrow light">Capabilities / Working range</p>
-          <h2 id="capabilities-title">Technical depth with operating judgment.</h2>
+          <p className="eyebrow light">Capabilities / What I bring</p>
+          <h2 id="capabilities-title">Engineering with a wider perspective.</h2>
           <p>
             I learn unfamiliar domains quickly, then turn that learning into
             working systems, clearer decisions, and momentum for the team.
@@ -415,7 +416,7 @@ export default function Home() {
       >
         <div>
           <p className="eyebrow">Recognition / Selected</p>
-          <h2 id="recognition-title">Signals earned through the work.</h2>
+          <h2 id="recognition-title">Awards &amp; recognition.</h2>
         </div>
         <div className="recognition-list">
           <article>
@@ -470,7 +471,7 @@ export default function Home() {
             frohna.ava@gmail.com <span aria-hidden="true">↗</span>
           </a>
           <div className="social-links">
-            <a href="http://www.linkedin.com/in/ava-frohna" {...externalLinkProps}>
+            <a href="https://www.linkedin.com/in/ava-frohna" {...externalLinkProps}>
               LinkedIn
             </a>
             <a href="https://github.com/avafrohna" {...externalLinkProps}>
